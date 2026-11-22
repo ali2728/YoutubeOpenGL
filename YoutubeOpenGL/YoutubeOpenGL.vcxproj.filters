@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\ImGui">
+      <UniqueIdentifier>{5f4a9985-bf7b-4597-8129-81f754789c43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glad.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui_demo.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui_draw.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui_impl_dx11.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui_impl_win32.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui_tables.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IAMGUI\imgui_widgets.cpp">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IAMGUI\imconfig.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imgui.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imgui_impl_dx11.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imgui_impl_win32.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imgui_internal.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imstb_rectpack.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imstb_textedit.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IAMGUI\imstb_truetype.h">
+      <Filter>Archivos de origen\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

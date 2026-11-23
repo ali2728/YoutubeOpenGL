@@ -85,7 +85,8 @@ Para obtener una copia local del proyecto y ejecutarlo, sigue estos pasos.
 
 👤 **Alison Molina**
 
-- GitHub: [@ali2728]([https://github.com/ali2728])
+- GitHub: [@ali2728](https://github.com/ali2728)
+- https://youtu.be/rNYdN4u2kmM?si=xP96POcfw-b_Mv4v
 
 ## Acknowledgments
 
